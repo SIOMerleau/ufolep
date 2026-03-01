@@ -1,0 +1,59 @@
+.custom-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20px auto;
+    width: 80%;
+    font-family: sans-serif;
+    border: 2px solid #ced4da; /* Bordure principale du tableau */
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #dee2e6; /* Bordures internes des cellules */
+    padding: 10px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.custom-table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.custom-table a:hover {
+    text-decoration: underline;
+}
+
+/* Styles spécifiques pour l'image de référence */
+.custom-table {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Ombre du tableau */
+}
+
+.custom-table th {
+    background-color: #e9ecef; /* Couleur de fond de l'en-tête */
+    color: #212529; /* Couleur du texte de l'en-tête */
+}
+
+.custom-table td {
+    background-color: #f2f2f2; /* Couleur de fond des cellules */
+}
+
+.custom-table tr:nth-child(even) td {
+    background-color: #ffffff; /* Alternance des couleurs de fond des lignes */
+}
+
+.custom-table td:nth-child(2n+1) { /* Colonnes "Club" */
+    font-weight: bold;
+}
+
+.custom-table td:nth-child(2) { /* Colonne "Score" */
+    text-align: center;
+}
+
+.custom-table td:nth-child(3) { /* Colonne "Détails" */
+    text-align: center;
+}
